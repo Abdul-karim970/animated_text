@@ -122,7 +122,7 @@ class _MyHomePageState extends State<MyHomePage>
               child: Text(
                 'l',
                 style: TextStyle(
-                    shadows: [
+                    shadows: const [
                       BoxShadow(
                           color: Colors.grey,
                           blurRadius: 10,
@@ -142,7 +142,7 @@ class _MyHomePageState extends State<MyHomePage>
             child: Text(
               'utter',
               style: TextStyle(
-                  shadows: [
+                  shadows: const [
                     BoxShadow(
                         color: Colors.grey,
                         blurRadius: 10,
